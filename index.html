@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Cadastro de Clientes </title>
+</head>
+<body>
+    <form class="fundo" action="https://api.staticforms.xyz/submit" method="POST">
+        <input type="hidden" name="accessKey" value="686ca365-45c1-4c10-80c0-64e4bc81b914">
+
+
+        <header>
+            <h1>Digite seus dados</h1>
+        </header>
+
+        <main>
+            <input type="email" name="email" placeholder="E-mail" id="email"> <br>
+            <input type="text" name="name" placeholder="Nome Completo" id="nome"> <br>
+            <div class="checkbox" name="name">
+                <input type="checkbox" name="name" class="checkbox" id="checkbox"> Pessoa Física
+            <input type="checkbox" name="name" class="checkbox" id="checkbox"> Pessoa Jurídica <br>
+            </div>
+            <input type="password" name="message" placeholder="Senha" id="senha"> <br>
+            <input type="date" name="name" placeholder="Data de Nascimento" id="nascimento"> <br>
+            <input type="number" name="phone" placeholder="CPF" id="cpf"> <br>
+            <input type="number" name="subject" placeholder="CEP" id="cep"> <br>
+            <input type="text" name="message" placeholder="Endereço" id="endereço"> <br>
+        </main>
+
+        <footer>
+            <strong><p>Alterar Mensalidade</p></strong>
+            <h2>Termos de Uso</h2>
+            <button>Cadastre-se</button>
+        </footer>
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+    background-color: #FF6D00;
+    color: #652911;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header h1{
+    font-size: 20px;
+}
+.fundo{
+    width: 350px;
+    height: 600px;
+    border: none;
+    box-shadow: 0 0 15px black; /* Adiciona uma sombra suave */
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+input{
+    border: 1px solid #6529116b;
+    color: #6529116b;
+    margin-top: 12px;
+    width: 85%;
+    height: 28px;
+}
+.checkbox{
+    margin: auto;
+    border: 1px solid #6529116b;
+    color: #6529116b;
+    margin-top: 10px;
+    width: 85%;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    justify-content: center;
+}
+.checkbox input[type="checkbox"] {
+    margin-right: 10px; 
+    width: 13px; 
+    height: 13px; 
+}
+
+footer p {
+    margin: 16px;
+    font-size: 12px;
+    color: #F08A37;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+footer button{
+    background-image: linear-gradient(90deg , #F15C24 , #FECB1A);
+    width: 160px;
+    height: 40px;
+    margin-top: 2px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 1px 1px 7px;
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 1px 3px black;
+    cursor: pointer;
+}
+footer button:hover{
+    background-image: linear-gradient(90deg , #ca4a1c , #d4ac1c);
+    font-size: 20px;
+    transition: 1s ease;
+}
